@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+
+.home_img {
+	width: 100%;
+}
+
+.home_container {
+	position: relative;
+	left: 20%;
+	top: 40%;
+	width: 634px;
+	height: 282px;
+}
+
+.home_container0 {
+	height: 720px;
+	background-image: url(memoryimg/background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.home_inner_container0 {
+	height: 360px;
+	background-image: url(memoryimg/inner_background.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.home_upperBlank {
+	height: 150px;
+}
+
+.home_title_word {
+	height: 100px;
+}
+
+.home_title_word0 {
+	height: 60px;
+}
+
+
+#bg {position:fixed; top:0; left:0; width:100%; height:100%;}
+/* places the content ontop of the background image */
+#home_container1 {position:relative; z-index:100;}
