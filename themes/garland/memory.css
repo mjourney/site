@@ -1,9 +1,5 @@
 @CHARSET "UTF-8";
 
-.home_img {
-	width: 100%;
-}
-
 .home_container {
 	position: relative;
 	left: 20%;
@@ -38,7 +34,44 @@
 	height: 60px;
 }
 
-
-#bg {position:fixed; top:0; left:0; width:100%; height:100%;}
+#bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 /* places the content ontop of the background image */
-#home_container1 {position:relative; z-index:100;}
+#home_container1 {
+	position: relative;
+	z-index: 100;
+}
+
+.hero_img {
+	padding-bottom: 10px;
+}
+
+.section_padding {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.section_title_p {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: start;
+	font-family: Microsoft YaHei;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	color: #333333;
+}
+
+.text_pic_name{
+	text-align: center;
+}
+
+.right_name_align{
+	text-align: right;
+}
