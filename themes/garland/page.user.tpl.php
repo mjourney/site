@@ -1,5 +1,6 @@
 <?php
-$path = drupal_get_path ( 'theme', 'garland' );
+global $base_url;
+$path = $base_url . '/' . drupal_get_path ( 'theme', 'garland' );
 ?>
 <div class="container">
 	<div class="container-fluid">
@@ -11,7 +12,7 @@ $path = drupal_get_path ( 'theme', 'garland' );
 						<div class="row-fluid">
 							<div class="span3">
 								<img alt="pic"
-									src="/<?php echo $path ?> /memoryimg/u5_normal.png"
+									src="<?php echo $path ?>/memoryimg/u5_normal.png"
 									class=" hero_img">
 								<p style="text-align: center;">
 									<span>张国荣</span>
@@ -19,7 +20,7 @@ $path = drupal_get_path ( 'theme', 'garland' );
 							</div>
 							<div class="span3">
 								<img alt="pic"
-									src="/<?php echo $path ?> /memoryimg/u5_normal.png"
+									src="<?php echo $path ?>/memoryimg/u5_normal.png"
 									class="img-rounded hero_img">
 								<p style="text-align: center;">
 									<span>张国荣</span>
@@ -40,7 +41,7 @@ $path = drupal_get_path ( 'theme', 'garland' );
 							<div class="span2">
 								<p class="left_name_align">
 									<img alt="pic"
-										src="/<?php echo $path ?> /memoryimg/u18_normal.png"
+										src="<?php echo $path ?>/memoryimg/u18_normal.png"
 										class="img-rounded, home_img">
 								</p>
 								<p class="left_name_align">
@@ -53,7 +54,7 @@ $path = drupal_get_path ( 'theme', 'garland' );
 							<div class="span2">
 								<p class="left_name_align">
 									<img alt="pic"
-										src="/<?php echo $path ?> /memoryimg/u20_normal.png"
+										src="<?php echo $path ?>/memoryimg/u20_normal.png"
 										class="img-rounded, home_img">
 								</p>
 								<p class="left_name_align">
@@ -66,7 +67,7 @@ $path = drupal_get_path ( 'theme', 'garland' );
 							<div class="span2">
 								<p class="left_name_align">
 									<img alt="pic"
-										src="/<?php echo $path ?> /memoryimg/u22_normal.png"
+										src="<?php echo $path ?>/memoryimg/u22_normal.png"
 										class="img-rounded, home_img">
 								</p>
 								<p class="left_name_align">
@@ -79,7 +80,7 @@ $path = drupal_get_path ( 'theme', 'garland' );
 							<div class="span2">
 								<p class="left_name_align">
 									<img alt="pic"
-										src="/<?php echo $path ?> /memoryimg/u24_normal.jpg"
+										src="<?php echo $path ?>/memoryimg/u24_normal.jpg"
 										class="img-rounded, home_img">
 								</p>
 								<p class="left_name_align">
@@ -92,7 +93,7 @@ $path = drupal_get_path ( 'theme', 'garland' );
 							<div class="span2">
 								<p class="left_name_align">
 									<img alt="pic"
-										src="/<?php echo $path ?> /memoryimg/u26_normal.png"
+										src="<?php echo $path ?>/memoryimg/u26_normal.png"
 										class="img-rounded, home_img">
 								</p>
 								<p class="left_name_align">
