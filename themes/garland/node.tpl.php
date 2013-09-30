@@ -1,4 +1,9 @@
 <?php
+	$requestPath = request_path ();
+	if(strpos($requestPath, "content/") === 0) {
+		include_once 'page.hero.tpl.php';
+		return;
+	}
 ?>
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?>"<?php print $attributes; ?>>
 

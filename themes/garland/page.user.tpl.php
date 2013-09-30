@@ -7,7 +7,14 @@ $path = $base_url . '/' . drupal_get_path ( 'theme', 'garland' );
 		<div class="row-fluid">
 			<div class="span7">
 				<div class="row-fluid">
-					<div class="span12"></div>
+					<div class="span10 page-header">
+					  <h4>纪念册 </h4>
+					</div>
+					<div class="span2 page-header">
+						<p style="text-align: right;">
+							<a class="btn btn-primary" style="vertical-align:bottom;" href="<?php echo $base_url?>/node/add/c-hero">新建</a>
+						</p>
+					</div>
 					<div class="span12 section_padding">
 						<div class="row-fluid">
 							<div class="span3">
@@ -15,7 +22,10 @@ $path = $base_url . '/' . drupal_get_path ( 'theme', 'garland' );
 									src="<?php echo $path ?>/memoryimg/u5_normal.png"
 									class=" hero_img">
 								<p style="text-align: center;">
-									<span>张国荣</span>
+									<span><a href="<?php echo $base_url?>/content/镇南王">张国荣</a></span>
+								</p>
+								<p style="text-align: center;">
+									<a class="btn btn-primary" style="vertical-align:bottom;" href="node/2/edit">编辑</a>
 								</p>
 							</div>
 							<div class="span3">
@@ -25,16 +35,26 @@ $path = $base_url . '/' . drupal_get_path ( 'theme', 'garland' );
 								<p style="text-align: center;">
 									<span>张国荣</span>
 								</p>
+								<p style="text-align: center;">
+									<button class="btn btn-primary" style="vertical-align:bottom;">编辑</button>
+								</p>
+							</div>
+							<div class="span3">
+								
 							</div>
 						</div>
 					</div>
 					<div class="span12">
-						<p>
-							<span class="section_title_p" style="width:190;">礼品</span>
-						</p>
-						<p style="text-align: right;">
-							<span>思君币：1000点 </span><a>兑换思君币</a>
-						</p>
+						<div class="row-fluid">
+							<div class="span8 page-header">
+							  <h4>礼品 </h4>
+							</div>
+							<div class="span4 page-header">
+								<p style="text-align: right;">
+									<span>思君币：1000点 </span><a class="btn btn-primary">兑换思君币</a>
+								</p>
+							</div>
+						</div>
 					</div>
 					<div class="span12 section_padding">
 						<div class="row-fluid">
@@ -109,8 +129,8 @@ $path = $base_url . '/' . drupal_get_path ( 'theme', 'garland' );
 			</div>
 			<div class="span4 offset1">
 				<div class="row-fluid">
-					<div class="span12 section_padding">
-						<span class="section_title_p">邀请</span>
+					<div class="span12 page-header">
+						<h4 >邀请</h4>
 					</div>
 					<div class="span12">
 						<ul>
@@ -166,8 +186,8 @@ $path = $base_url . '/' . drupal_get_path ( 'theme', 'garland' );
 					</div>
 				</div>
 				<div class="row-fluid">
-					<div class="span12 section_title_p">
-						<span class="section_title_p">访客日志</span>
+					<div class="span12 page-header">
+						<h4>访客日志</h4>
 					</div>
 					<div class="span12">
 						<ul>

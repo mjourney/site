@@ -15,7 +15,7 @@
 					<?php if($user && $user->uid != 0): ?>
 						<ul class="nav">
 							<li>
-								<a href="/user/info">未读消息(0)</a>
+								<a href="/user/info">未读消息<span class="badge">42</span></a>
 							</li>
 							<li>
 								<a href="/user"><?php echo $user->name;?></a>
@@ -46,8 +46,11 @@ if (strlen ( $requestPath ) == 0) {
 	// include_once 'page.other.php';
 } else if (strcmp ( "user", $requestPath ) == 0) {
 	include_once 'page.user.tpl.php';
+} else if(strpos($requestPath, "content/") === 0) {
+	include_once 'page.hero.tpl.php';
+// 	print render($page['content']);
 } else {
-	include_once 'page.other.php';
+	include_once 'page.tpl.other.php';
 }
 
 ?>
